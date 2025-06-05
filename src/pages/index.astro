@@ -1,0 +1,33 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Header from '../components/Header.astro';
+import Services from '../components/Services.astro';
+import About from '../components/About.astro';
+import Gallery from '../components/Gallery.astro';
+import Location from '../components/Location.astro'; 
+import Contact from '../components/Contact.astro'; 
+import Footer from '../components/Footer.astro';
+
+---
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller Resada - Servicio Automotriz Profesional</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <Navbar />  <!-- Se agrega la barra de navegación -->
+  <Header />
+  <Services />
+  <About />
+  <Gallery />
+  <Location/>
+  <Contact />
+  <section id="location" class="location"></section>
+  <section id="contact" class="contact"></section
+  ><Footer />
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería | Taller Resada</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <Navbar />  <!-- Se agrega la barra de navegación -->
+    <section class="gallery-detail">
+    <h1>📸 Galería del Taller Resada</h1>
+    <p>Ubicado en <strong>Calle Gonzalitos 246, Colonia Chepevera</strong>, nuestro taller ha sido un referente en el sector automotriz desde su fundación en <strong>2005</strong>. Con más de <strong>20 años de experiencia</strong>, ofrecemos servicios de mantenimiento y reparación con la más alta calidad y tecnología.</p>
+
+    <h2>🔧 Instalaciones Modernas</h2>
+    <p>Nuestro taller cuenta con infraestructura avanzada y herramientas de diagnóstico de última generación. Manejamos un espacio diseñado para brindar comodidad y eficiencia, garantizando un servicio óptimo.</p>
+
+    <div class="gallery-grid">
+      <img src="/public/taller1.jpg" alt="Área de reparación de motores" />
+      <img src="/public/taller2.jpg" alt="Zona de diagnóstico electrónico" />
+      <img src="/public/taller3.jpg" alt="Espacio de atención al cliente" />
+      <img src="/public/taller4.jpg" alt="Vista exterior del taller" />
+    </div>
+
+    <h2>🏆 Calidad y Confianza</h2>
+    <p>Nos especializamos en <strong>reparaciones precisas</strong>, ofreciendo a nuestros clientes soluciones que cumplen con los estándares de la industria. Nuestro equipo está compuesto por técnicos certificados que garantizan resultados confiables.</p>
+
+    <h2>📞 Contáctanos</h2>
+    <p>¿Quieres conocer más sobre nuestros servicios o agendar una cita? Contáctanos:</p>
+    <a href="https://wa.me/5218112445873" target="_blank">📲 WhatsApp</a>
+    <a href="mailto:renteriia1011@gmail.com">📩 Gmail</a>
+  </section>
+  <Footer/>
+</body>
+</html>
